@@ -60,7 +60,7 @@ const actions = (message, _opcao = 0) => {
 					msgOpcao = `Opção 1: Receita Federal\n
 				Por favor informe seu nome completo`
 					opcaotr = 'Receita Federal'
-					console.log('---> opcao escolhida 1');
+					
 					break;
 				case '2':
 					msgOpcao = `Opção 2: IPVA\n
@@ -85,7 +85,7 @@ const actions = (message, _opcao = 0) => {
 	if( steps.length == 2 ){
 		
 		if( isNaN(opcao) ){
-			console.log('tamanho 2', opcao);
+			
 			nome = opcao
 			const msg = `Seu nome é: *${opcao}*\n
 			Deseja corrigir?\n
